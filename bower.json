@@ -1,0 +1,15 @@
+{
+  "name": "angular-webstorage",
+  "version": "0.1.0",
+  "description": "An Angular module that gives you access to the browsers local storage",
+  "homepage": "https://github.com/william57m/angular-webstorage",
+  "main": "./src/angular-webstorage.js",
+  "author": "william57m <william57m@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.3.6"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.6"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "angular-webstorage",
+  "version": "0.1.0",
+  "description": "An Angular module that gives you access to the browsers local storage",
+  "homepage": "https://github.com/william57m/angular-webstorage",
+  "main": "./src/angular-webstorage.js",
+  "author": "william57m <william57m@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "*",
+    "grunt-karma": "latest",
+    "karma": "^0.12.28",
+    "karma-coverage": "^0.2.6",
+    "karma-jasmine": "~0.2.0",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "load-grunt-tasks": "~0.3.0"
+  }
+}
