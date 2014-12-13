@@ -32,9 +32,9 @@ Table of contents
 
 1. Get the module
 
-    ##### Via npm (Coming soon)
+    ##### Via npm
     ```bash
-    $ npm install angular-web-storage
+    $ npm install angular-webstorage
     ```
 
     ##### Via git
@@ -50,7 +50,7 @@ Table of contents
 ## get(key, storageType)
 
 Get value from storage.
-Without storageType value is took from storage session but if no value is find from storage session, the method try to find a value from local storage.
+By default, without storageType, value is took from session but if no value is find from session, the method try to find a value from local storage.
 
 #### Params
 - key *(string)*: data identifier
@@ -65,15 +65,15 @@ var value1 = AngularWebStorage.get('foo'); // return value corresponding to 'foo
 var value2 = AngularWebStorage.get('key', 'localStorage'); // return value corresponding to 'key' from local storage
 ```
 
-## set(key, value, storageType)
+## set(key, value, keep)
 
 Add value in web storage.
-Without storageType, by default value is stored in session.
+By default, without keep param, value is stored in session.
 
 #### Params
 - key *(string)*: data identifier
 - value *(object)*: value to store
-- keep *(boolean, optional)*: if true store data in local storage, if false store in session storage
+- keep *(boolean, optional)*: if true data is stored in local, if false data is stored in session
 
 #### Return
 - boolean: true if the data was stored well, false otherwise
@@ -88,7 +88,7 @@ AngularWebStorage.set('foo', 'toto', true); // store the data in local
 ## remove(key, storageType)
 
 Remove data from web storage.
-By default, without storageType, data corresponding to key are removed from session and local storage.
+By default, without storageType, data corresponding to key is removed from session and local storage.
 
 #### Params
 - key *(string)*: data identifier

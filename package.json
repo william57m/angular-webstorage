@@ -6,6 +6,16 @@
   "main": "./src/angular-webstorage.js",
   "author": "william57m <william57m@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "AngularJS",
+    "Angular",
+    "cookie",
+    "local",
+    "web",
+    "storage",
+    "webstorage",
+    "browser"
+  ],
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.9",
